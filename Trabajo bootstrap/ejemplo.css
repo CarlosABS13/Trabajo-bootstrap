@@ -1,0 +1,109 @@
+body{
+    background: rgba(237,242,248,255);
+    margin: 5rem auto;
+}
+main{
+    height: 100vh;
+    align-items: center;
+}
+.color-daniel{
+   background-color: rgba(115,63,200,255) !important;
+}
+.color-jonathan{
+   background-color: rgba(73,85,107,255) !important;
+}
+.color-jeanette{
+   background-color: white !important;
+}
+.color-patrick{
+   background-color: rgba(24,32,45,255) !important;
+}
+.color-kira{
+   background-color: white !important;
+}
+.borde{
+    border: solid #9c71dc;
+}
+
+.comillas{
+    right: 18%;
+    width: 120px;
+    position: absolute;
+}
+.card-body img{
+    margin-right: 0.5rem !important;
+    width: 40px;
+    height: 40px;
+}
+.card-body{
+/*     margin: 0.rem !important;
+ */    padding: 1rem;
+}
+.card{
+    box-shadow: 
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+.texto-arriba{
+    font-family:garet !important;
+    font-size: 14pt;
+    font-weight: 900;
+}
+.texto-abajo{
+    font-family: creato !important;
+    font-size: 10pt;
+}
+.texto1{
+    font-family:altone !important;
+    font-size: 14pt;
+    font-weight: 800;
+    color: #4c505a;
+}
+.texto2{
+    font-family: creato !important;
+    font-size: 10pt;
+    color: #a1a5a7;
+}
+.texto1-j{
+    font-family:altone !important;
+    font-size: 15pt;
+    font-weight: 900;
+    color: #4c505a;
+}
+.texto2-j{
+    font-family: creato !important;
+    font-size: 10pt;
+    color: #a1a5a7;
+}
+.titulo1{
+    margin-left: 0.5rem !important;
+    color: #4c505a;
+    font-size: 10pt;
+    font-family: codec;
+    font-weight: 900;
+}
+.titulo2{
+    margin-left: 0.5rem !important;
+    color: #a1a5a7;
+    font-size: 10pt;
+}
+@font-face {
+    font-family: garet;
+    src: url(./fuentes/garet/Garet-Book.ttf);
+}
+@font-face {
+    font-family: creato;
+    src: url(./fuentes/creato_display//CreatoDisplay-Medium.otf);
+}
+@font-face {
+    font-family: code;
+    src: url(./fuentes/code/CODE\ Bold.otf);
+}
+@font-face {
+    font-family: altone;
+    src: url(./fuentes/altone/AltoneTrial-Bold.ttf );
+}
+@font-face {
+    font-family: codec;
+    src: url(./fuentes/codec/Codec-Cold-Extralight-trial.ttf);
+}
